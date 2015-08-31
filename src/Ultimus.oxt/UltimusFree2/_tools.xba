@@ -77,6 +77,8 @@ End Function
 rem ----------------------------------------------------------------------
 sub rir_
 	oSheet = ThisComponent.Sheets.getByName(&quot;CONTABILITA&quot;)
+	xray oSheet
+	print 
 	lLastUrow = getLastUsedRow(oSheet)
 	&apos;print lLastUrow
 		conta_a = 0
